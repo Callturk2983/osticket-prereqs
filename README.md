@@ -18,11 +18,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Create a VM with windows 10 pro (either with virtual box or Azure)
+- Create a VM with windows 10 pro 
 - Enabling IIS with CGI 
-- Installing rewrite module for osTicket ( this allows us to use friendly redirects in the url)
-- Install PHP Manger for IIS (this is a background dependency for osTicket)
-- Install both HediSQL and MySql (MySql is used to store all of our data in, while HediSql allows us to connect to our database)
+- Installing rewrite module for osTicket 
+- Install PHP Manger 
+- Install both HediSQL and MySql 
 
 <h2>Installation Steps</h2>
 
@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Enabling IIS with CGI(this allows us to use friendly redirects in the url), then install PHP Manager for the IIS (PHP is a background dependency for osTicket and will allow us to manage the database)  
 </p>
 <br />
 
@@ -38,7 +38,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next we want to install rewrite module. According to ChatGPT rewrite allows us to have clean, flexible and secure Url's. By previding helpful redirect, increase security, while also precent broken links while using osTicket.
 </p>
 <br />
 
@@ -46,6 +46,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ MySql is used to store all of our data in, while HediSql allows us to connect to our database
 </p>
 <br />
